@@ -1,26 +1,23 @@
+
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'Noto Serif', serif;
+    background-image: url("background_c.png");
+    color: #4a1c1c;
     margin: 0;
     padding: 0;
-    background-image: url(background_c.png);
-    line-height: 1.6;
 }
 
 
 header {
-    background-image: url(dragão.png);
-    color: #ff0000;
-    padding: 60px 0;
+    color: #fff;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
 
 
 nav {
@@ -42,52 +39,58 @@ nav a {
 }
 
 
-nav a:hover {
-    color: #ffffff;
+
+
+nav a:hover{
+    color: #fff;
 }
 
 
+
+/* Seções */
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 
-main h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #ff1f1f;
+section {
+    margin-bottom: 30px;
 }
 
 
-main p {
-    margin-bottom: 15px;
-    text-align: justify;
+h2 {
+    color: #b22222;
+    border-left: 5px solid #b22222;
+    padding-left: 10px;
+    font-size: 1.8em;
 }
 
 
-main ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-
-main ul li {
-    margin-bottom: 10px;
+p {
+    line-height: 1.8;
+    font-size: 1.1em;
 }
 
 
 
-
-footer{
+footer {
+     color: #fff;
     text-align: center;
-    padding-top: 3.6%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1em;
 }
 
 
 
+section:nth-child(odd) {
+    background-color: #f586869c;
+    padding: 15px;
+    border-radius: 5px;
+}
 
