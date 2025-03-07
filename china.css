@@ -1,8 +1,8 @@
 
 body {
     font-family: 'Noto Serif', serif;
-    background-image: url("background_c.png");
-    color: #4a1c1c;
+    background-image: url("imgs/background_c.png");
+    color: #a02525;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body {
 header {
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 23px 0;
     font-size: 2em;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -25,7 +25,7 @@ nav {
     color: #cf3232;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 16px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -89,7 +89,7 @@ footer {
 
 
 section:nth-child(odd) {
-    background-color: #f586869c;
+    background-color: #f586868a;
     padding: 15px;
     border-radius: 5px;
 }

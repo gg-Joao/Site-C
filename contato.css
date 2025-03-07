@@ -6,17 +6,16 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(background_c.png);
+    background-image: url(imgs/background_c.png);
     background-size: cover;
     background-position: center;
     flex-direction: column;
 }
 
 header {
-    background-color: #b22222;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 23px 0;
     font-size: 2em;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -32,7 +31,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 0;
+    padding: 16px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     margin-top: 80px;
@@ -78,12 +77,13 @@ label {
 
 input, textarea {
     width: 100%;
-    padding: 8px;
+    padding: 6px;
     margin-top: 5px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: 16px;
 }
+
 
 textarea {
     resize: none;
